@@ -19,7 +19,7 @@ export default function HomeScreen({ navigation, route }: HomeScreenProps) {
 
   return (
     <View style={styles.container}>
-      <Image source={require('../assets/logo.png')} style={{ width: 200, height: 200 }} />
+      
       <Text style={styles.title}>Christoffel's Diner</Text>
       <View style={styles.navlinks}>
         <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('AddMenu')}>
